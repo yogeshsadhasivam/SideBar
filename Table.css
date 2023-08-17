@@ -1,0 +1,49 @@
+.Sidebar{
+    width: 20vw;
+    height: 2.5em;
+    overflow: hidden;
+    padding: 5px;
+    transition-property: all;
+    transition-duration: 2s;
+    transition-timing-function: linear;
+    transition-delay: 0.15s;
+}
+
+
+.Main{
+    padding-left: 5px;
+}
+.Sidebar:hover{
+    height: auto;
+    cursor: pointer;
+}
+li{
+    padding: 10px;
+    list-style: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition-property: all;
+    transition-duration: 0.15s;
+    transition-timing-function: linear;
+    transition-delay: 0.2s;
+}
+li:hover{
+background-color: skyblue;
+color: blue;
+}
+.top{
+    display: flex;
+    align-items: center;
+    margin-left: 0.5vw;
+}
+ #Icons{
+    margin-left: auto;
+} 
+#margin{
+    margin-right:0.8em ;
+}
+#Icon1,#Icon2,#Icon3{
+    transform: rotate(180deg);
+    margin-left: auto;
+  transition: transform 0.3s linear;
+}
